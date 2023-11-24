@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
     final user = FirebaseAuth.instance.currentUser;
     return Scaffold(
       drawer: MyDrawer(),
-      appBar: AppBar(title: Text("Page Home")),
+      appBar: AppBar(title: Text("Page Home Hello My App")),
       body: Column(
         children: [
           Container(
